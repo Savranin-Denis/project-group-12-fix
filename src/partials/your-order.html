@@ -1,5 +1,107 @@
-<p>
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur animi
-  mollitia saepe officia fuga, voluptatibus maxime perspiciatis dolorem quasi
-  ipsum delectus amet quae, tenetur iusto nam aut consectetur adipisci numquam!
-</p>
+<section class="container your-order">
+  <div class="fresh-box">
+    <h2 class="subtitle">
+      Fresh <span class="text-title">Harvest</span> Box has got you covered
+    </h2>
+    <p class="subtitle-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+  </div>
+  <div class="modal">
+    <p class="modal-caption">
+      Ordering <span class="text-modal-title">from us</span> is quick and easy!
+      Fill out <span class="text-modal-title-green">the form</span> below and we
+      will contact you !
+    </p>
+    <form class="modal-form" name="review">
+      <div class="modal-form-field">
+        <label class="modal-form-label" for="user-name"></label>
+        <div class="modal-form-wrapper">
+          <input
+            class="modal-form-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            minlength="2"
+            required
+            title="Please switch to english"
+            placeholder="Full Name"
+          />
+        </div>
+      </div>
+
+      <div class="modal-form-field">
+        <label class="modal-form-label" for="user-email"></label>
+        <div class="modal-form-wrapper">
+          <input
+            class="modal-form-input"
+            type="email"
+            id="user-email"
+            name="user-email"
+            required
+            placeholder="Email"
+          />
+        </div>
+      </div>
+
+      <div class="modal-form-field">
+        <label class="modal-form-label" for="user-message"></label>
+        <textarea
+          class="modal-form-message"
+          name="user-message"
+          id="user-message"
+          placeholder="Comment"
+        ></textarea>
+      </div>
+      <button class="btn btn-accent" type="submit">Send</button>
+    </form>
+  </div>
+  <div class="socials">
+    <div class="socials-img">
+      <img
+        class="order-img"
+        srcset="../img/your-order/img-order-mob.jpg"
+        alt="box-vegetables"
+        width="295"
+        height="272"
+      />
+    </div>
+    <div class="socials-group">
+      <p class="socials-subtitle">Follow us on our social networks:</p>
+      <ul>
+        <li class="socials-item">
+          <a
+            class="socials-link"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to Instagram"
+            >INSTAGRAM</a
+          >
+        </li>
+        <li class="socials-item">
+          <a
+            class="socials-link"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to facebook"
+            >FACEBOOK</a
+          >
+        </li>
+        <li class="socials-item">
+          <a
+            class="socials-link"
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link to youtube"
+            >YOUTOUBE</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

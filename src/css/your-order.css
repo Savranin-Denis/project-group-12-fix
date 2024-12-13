@@ -1,0 +1,140 @@
+.your-order {
+    background-color: #576f35;
+
+}
+
+.fresh-box {
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+
+    /* line-height: 52px; */
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+}
+
+.text-title {
+    color: #d4bfc4;
+}
+
+.subtitle-text {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    /* line-height: 20px; */
+    line-height: 1.43;
+    color: #fbfbfb;
+}
+
+.modal {
+    display: flex;
+
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 30px;
+    padding: 40px 20px;
+
+    background: #fbfbfb;
+}
+
+.modal-caption {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+
+    /* line-height: 28px; */
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+.text-modal-title {
+    color: #7a3145;
+}
+
+.text-modal-title-green {
+    color: #576f35;
+}
+
+.modal-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal-form-field {}
+
+.modal-form-label {}
+
+.modal-form-wrapper {}
+
+.modal-form-input {
+
+    border: 1px solid #858585;
+    border-radius: 30px;
+    padding: 14px 16px;
+    min-width: 295px;
+    height: 48px;
+
+    font-weight: 500;
+    font-size: 14px;
+
+    /* line-height: 20px; */
+    line-height: 1.43;
+
+    color: #141414;
+}
+
+.modal-form-message {
+    border: 1px solid #858585;
+    border-radius: 15px;
+    padding: 14px 16px;
+    min-width: 295px;
+    min-height: 92px;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 16px 129px;
+    min-width: 295px;
+    height: 52px;
+    background: #7a3145;
+
+    font-weight: 600;
+    font-size: 18px;
+
+    /* line-height: 20px; */
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+}
+
+.btn-accent {
+    color: ;
+}
+
+.socials {}
+
+.socials-img {}
+
+.order-img {}
+
+.socials-group {}
+
+.socials-subtitle {}
+
+.socials-item {}
+
