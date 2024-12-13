@@ -41,7 +41,7 @@
     padding: 80px 20px;
     background: #576f35;
     text-align: left;
-    width: 440px;
+    max-width: 375px;
 
 }
 
@@ -52,7 +52,7 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    width: 335px;
+    max-width: 335px;
     margin-bottom: 20px;
 }
 
@@ -82,12 +82,13 @@
 
 .ol-list li {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     position: relative;
     display: flex;
     gap: 24px;
     padding-bottom: 12px;
     padding-top: 12px;
+    padding-right: 12px;
     background-color: #fbfbfb;
     color: #858585;
     border-radius: 15px;
@@ -127,7 +128,7 @@
     line-height: 143%;
     color: #858585;
     margin: 0;
-    padding-top: 12px;
+
 }
 
 /* Section 2  text Styles for Tablet devices */
