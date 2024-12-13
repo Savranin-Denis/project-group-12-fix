@@ -1,0 +1,75 @@
+:root {
+    /* font-family: Inter Tight, sans-serif; */
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+
+    color: #141414;
+    background-color: pink;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Styles for Mobile devices */
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1292px) {
+    .container {
+        max-width: 1292px;
+        padding: 0 12px;
+    }
+}
+
+.your-order {
+    background-color: #576f35;
+
+}
+
+.subtitle {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+
+    /* line-height: 64px; */
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+}
+
+.text-title {
+    color: #d4bfc4;
+}
