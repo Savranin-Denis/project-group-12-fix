@@ -23,7 +23,7 @@
 }
 
 /* Section 2 img Styles for Desktop devices */
-@media only screen and (min-width: 1292px) {
+@media only screen and (min-width: 1280px) {
     .works-img {
         padding: 100px 100px;
         margin: 0;
@@ -72,18 +72,22 @@
 
 .ol-list {
     display: flex;
+    counter-reset: li-counter;
     flex-direction: column;
     list-style: none;
     padding: 0;
     gap: 20px;
+
 }
 
 .ol-list li {
     display: flex;
+    align-items: flex-start;
+    position: relative;
+    display: flex;
     gap: 24px;
     padding-bottom: 12px;
     padding-top: 12px;
-
     background-color: #fbfbfb;
     color: #858585;
     border-radius: 15px;
@@ -114,6 +118,8 @@
     margin-left: 24px;
     flex-shrink: 0;
 }
+
+
 
 .ol-list p {
     font-weight: 500;
@@ -158,7 +164,7 @@
 
 
 /* Section 2  text Styles for Desktop devices */
-@media only screen and (min-width: 1292px) {
+@media only screen and (min-width: 1280px) {
     .works-content {
         padding: 100px 100px;
         margin: 0;
