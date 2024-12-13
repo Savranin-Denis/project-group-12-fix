@@ -178,7 +178,9 @@ font-family: "Inter Tight", sans-serif;
         color: #fbfbfb;
 }
 
-.btn-accent {}
+.btn-accent {
+    color: ;
+}
 
 .socials {}
 
