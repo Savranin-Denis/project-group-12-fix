@@ -1,12 +1,10 @@
-img {
-    width: 100%;
-    height: auto;
-}
-
 /* Section 2  img Styles for Mobile devices */
 .section-how {
     display: block;
     margin: 0 auto;
+    max-width: 320px;
+    justify-content: center;
+
 }
 
 .works-img {
@@ -34,6 +32,12 @@ img {
         padding: 100px 64px;
         min-width: 768px;
     }
+
+    .section-how {
+
+        max-width: 768px;
+
+    }
 }
 
 /* Section 2 img Styles for Desktop devices */
@@ -41,6 +45,12 @@ img {
     .works-img {
         padding: 100px 100px;
         margin: 0;
+
+    }
+
+    .section-how {
+
+        max-width: 1280px;
 
     }
 
