@@ -1,0 +1,152 @@
+
+
+.vegetables {
+padding: 80px 0;
+background-color:  #7a3145;
+}
+
+
+/*@media screen and (min-width: 768px) {
+    .vegetables-tex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}*/
+
+
+.vegetables-title {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-bottom: 20px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-title {
+        margin-bottom: 24px;
+        font-size: 64px; 
+        line-height: 100%;
+    }
+}
+
+.vegetables-span {
+    color: #d4bfc4;
+}
+
+
+.vegetables-article {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 143%;
+    color: #fbfbfb;
+    padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-article {
+        max-width: 626px;
+        font-size: 16px; 
+        line-height: 125%;
+        padding-bottom: 52px;
+    }
+}
+
+
+.vegetables-list {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px; 
+        row-gap: 28px;
+    }
+}
+
+
+.vegetables-list-li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 40px;
+    padding: 32px 24px;
+    width: 100%;
+    background-color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-list-li {
+        padding: 32px 30px;
+        width: calc((100% - 24px) / 2); 
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .vegetables-list-li {
+        padding: 32px;
+        width: calc((100% - 48px) / 3); 
+    }
+}
+
+.vegetables-list-li-text {
+margin-right: auto;
+ margin-bottom: 12px;
+}
+
+@media screen and (min-width: 1280px) {
+    .vegetables-list-li-text {
+        margin-bottom: 8px;
+       }
+}
+
+
+.vegetables-li-title {
+    margin-bottom: 12px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #7a3145;
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-li-title {
+        font-size: 32px;
+    }
+}
+
+
+.vegetables-li-article {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-li-article {
+        font-size: 16px; 
+        line-height: 125%;
+
+    }
+}
+
