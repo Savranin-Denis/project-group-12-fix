@@ -1,1 +1,62 @@
-<header class="header"></header>
+<header class="container">
+  <div class="header-container">
+    <a href="./index.html" target="_blank" class="logo-header svg">
+      <svg class="icon-logo" width="168" height="16">
+        <use href="img/icons.svg#icon-logo"></use>
+      </svg>
+    </a>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-li">
+          <a class="navigator" href="#how-it-works" target="">How It Works</a>
+        </li>
+        <li class="nav-li">
+          <a class="navigator" href="#vegetables" target="">Vegetables</a>
+        </li>
+        <li class="nav-li">
+          <a class="navigator" href="#reviews" target="">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <button
+      type="button"
+      class="shop-btn shop-btn-header"
+      onclick="scrollToSection('your-order')"
+    >
+      Shop now
+    </button>
+
+    <button type="button" class="hedder-burger svg" data-heder-open>
+      <svg class="burger-s" width="32" height="32">
+        <use href="img/icons.svg#icon-mobile-menu"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="modal-overlay" data-heder>
+    <div class="mobail-menu">
+      <button type="button" class="mobail-btn-close svg" data-heder-close>
+        <svg class="mobail-btn-svg" width="16" height="16">
+          <use href="img/icons.svg#icon-close-btn"></use>
+        </svg>
+      </button>
+      <ul class="mobail-menu-nav">
+        <li class="mob-li">
+          <a href="#how-it-works">How It Works</a>
+        </li>
+        <li class="mob-li">
+          <a href="#vegetables">Vegetables</a>
+        </li>
+        <li class="mob-li">
+          <a href="#reviews">Reviews</a>
+        </li>
+      </ul>
+      <button
+        type="button"
+        class="shop-btn"
+        onclick="scrollToSection('your-order')"
+      >
+        Shop now
+      </button>
+    </div>
+  </div>
+</header>
