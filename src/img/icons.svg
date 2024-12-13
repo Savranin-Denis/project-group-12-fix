@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+
   <defs>
     <symbol id="icon-close-btn" viewBox="0 0 32 32">
       <path d="M24 6.4c-.442 0-.842.179-1.131.469l-16 16c-.289.29-.468.689-.468 1.131s.179.842.468 1.131c.29.289.689.468 1.131.468s.842-.179 1.131-.468l16-16c.289-.29.468-.689.468-1.131s-.179-.842-.468-1.131A1.593 1.593 0 0 0 24 6.4z"/>
@@ -32,4 +33,5 @@
       <path d="M331.669 29.867v-21.724h-8.115v-4.231h21.336v4.231h-8.080v21.724h-5.141z"></path>
     </symbol>
   </defs>
+
 </svg>
