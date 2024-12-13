@@ -1,11 +1,18 @@
 .hero{
-    display: flex;
     align-items: flex-end;
     background-color: #576f35;
     margin: 0 auto;
     padding: 100px 0px 0px 0px;
 }
-
+.hiro-div {
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (min-width:1280px) {
+    .hiro-div {
+        flex-direction: row;
+    }
+}
 .hero-wrapper{
     margin-bottom: 40px;
 }
@@ -31,7 +38,6 @@
 }
 
 .background{
-    position: absolute;
     width: 100%;
     left: 0;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2),rgba(20, 20, 20, 0.2)), url(../img/hero/image-bg-mob.jpg);
@@ -79,32 +85,35 @@
     }
 }
 
-@media only screen and (min-width: 1292px) {
+@media only screen and (min-width: 1280px) {
     .hero{
-        padding: 0px 0px 0px 100px;
+        padding: 0;
+
     }
     .hero-title {
+        max-width: 502px;
         margin-bottom: 128px;
         }
     
     .hero-subtitle {
-        width: 472px;
+        max-width: 472px;
         }
     
     .hero-wrapper {
-        padding: 0px 0px 52px 0px;
-        width: 504px;
+        padding: 232px 52px 38px 100px;
+        max-width: 1280px;
         margin-bottom: 0;
         }
     
     .background {
         background-image: linear-gradient(rgba(20, 20, 20, 0.2),rgba(20, 20, 20, 0.2)), url(../img/hero/Image-bg-desk.jpg);
-       
+       max-width: 640px;
+       min-height: 796px;
         }
     }
 
 
-@media screen and (min-width:1292px) and (min-resolution:921dpi),
+@media screen and (min-width:1280px) and (min-resolution:921dpi),
 (min-resolution:2dppx) {
     .background {
         background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
