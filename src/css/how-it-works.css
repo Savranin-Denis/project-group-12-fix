@@ -1,24 +1,38 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
 /* Section 2  img Styles for Mobile devices */
-.how-it-works {
+.section-how {
     display: block;
+    margin: 0 auto;
 }
 
 .works-img {
+    width: 100%;
     background-color: #7A3145;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 40px 20px;
+    text-align: left;
+    align-items: center;
 }
 
 .works-img img {
     border-radius: 30px;
+    width: 100%;
+
+    height: auto;
+
 }
 
 /* Section 2  img Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
     .works-img {
         padding: 100px 64px;
+        min-width: 768px;
     }
 }
 
@@ -27,21 +41,23 @@
     .works-img {
         padding: 100px 100px;
         margin: 0;
-        width: 50%;
+
     }
 
-    .how-it-works {
+    .section-how {
         display: flex;
     }
 }
 
 /* Section 2  text Styles for Mobile devices */
 
+
 .works-content {
     padding: 80px 20px;
     background: #576f35;
     text-align: left;
-    max-width: 375px;
+    align-items: center;
+    width: 100%;
 
 }
 
@@ -78,13 +94,13 @@
     padding: 0;
     gap: 20px;
 
+
 }
 
 .ol-list li {
     display: flex;
     align-items: center;
     position: relative;
-    display: flex;
     gap: 24px;
     padding-bottom: 12px;
     padding-top: 12px;
@@ -92,14 +108,14 @@
     background-color: #fbfbfb;
     color: #858585;
     border-radius: 15px;
+
 }
 
-.part-li {
-    font-weight: 700;
-    color: #141414;
-}
 
-.ol-list .ol-number {
+
+.ol-list li::before {
+    content: counter(li-counter);
+    counter-increment: li-counter;
     display: flex;
     font-weight: 600;
     font-size: 18px;
@@ -120,6 +136,12 @@
     flex-shrink: 0;
 }
 
+.part-li {
+    font-weight: 700;
+    color: #141414;
+}
+
+
 
 
 .ol-list p {
@@ -132,16 +154,15 @@
 }
 
 /* Section 2  text Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .works-content {
         padding: 100px 164px;
         min-width: 768px;
-
     }
 
     .order {
         font-size: 32px;
-        width: 440px;
+        min-width: 440px;
         margin-bottom: 24px;
     }
 
@@ -169,7 +190,7 @@
     .works-content {
         padding: 100px 100px;
         margin: 0;
-        width: 50%;
+
     }
 
     .bascket {
