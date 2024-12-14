@@ -1,4 +1,6 @@
+ modal-header
 .header {
+
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
