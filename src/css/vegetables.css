@@ -1,15 +1,9 @@
+
+
 .vegetables {
   padding: 80px 0;
   background-color: #7a3145;
 }
-
-/*@media screen and (min-width: 768px) {
-    .vegetables-tex {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-}*/
 
 .vegetables-title {
   display: flex;
