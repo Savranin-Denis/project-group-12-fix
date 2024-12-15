@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/project-group-12-fix/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group-12-fix/assets/index-CZarv3xe.css">
+    <link rel="stylesheet" crossorigin href="/project-group-12-fix/assets/index-DEg6oaDs.css">
   </head>
   <body>
     <!-- <header class="container">
@@ -55,6 +55,33 @@
         <use href="img/icons.svg#icon-mobile-menu"></use>
       </svg>
     </button>
+  </div>
+  <div class="modal-overlay" data-heder>
+    <div class="mobail-menu">
+      <button type="button" class="mobail-btn-close svg" data-heder-close>
+        <svg class="mobail-btn-svg" width="16" height="16">
+          <use href="img/icons.svg#icon-close-btn"></use>
+        </svg>
+      </button>
+      <ul class="mobail-menu-nav">
+        <li class="mob-li">
+          <a href="#how-it-works">How It Works</a>
+        </li>
+        <li class="mob-li">
+          <a href="#vegetables">Vegetables</a>
+        </li>
+        <li class="mob-li">
+          <a href="#reviews">Reviews</a>
+        </li>
+      </ul>
+      <button
+        type="button"
+        class="shop-btn"
+        onclick="scrollToSection('your-order')"
+      >
+        Shop nowW
+      </button>
+    </div>
   </div>
 </header>
  -->
@@ -93,9 +120,8 @@
     </button>
   </div>
 </header>
-
-<div class="backdrop is-open" data-heder>
-  <div class="mobile-menu" data-menu>
+<div class="backdrop" id="backdrop" data-heder>
+  <div class="mobile-menu">
     <button class="menu-close-btn" type="button" data-heder-close>
       <svg class="close-icon" width="32" height="32">
         <use href="/project-group-12-fix/assets/icons-rVh_eKpQ.svg#icon-close-btn"></use>
@@ -112,10 +138,16 @@
         <a class="menu-link" href="#reviews">Reviews</a>
       </li>
     </ul>
-    <button class="menu-shop-btn" type="button">SHOP NOW</button>
+    <button
+      class="menu-shop-btn"
+      type="button"
+      onclick="scrollToSection('your-order')"
+      id="orderButton"
+    >
+      SHOP NOW
+    </button>
   </div>
 </div>
-
 <!-- 
       <button
         type="button"
@@ -486,7 +518,7 @@
   </div>
 </section>
 
-      <section class="container your-order">
+      <section class="container your-order" id="your-order">
   <div class="fresh-box">
     <h2 class="subtitle">
       Fresh <span class="text-title">Harvest</span> Box has got you covered
@@ -652,6 +684,7 @@
 
     <script src="JS/scrollbtn.js"></script>
     <script src="JS/heder.js"></script>
+    <script src="JS/modal-heder.js"></script>
 
     <!-- <script src="JS/modal-heder.js"></script>-->
   </body>
