@@ -13,6 +13,7 @@ header {
   fill: #fbfbfb;
 }
 .header-container {
+  justify-content: space-between;
   display: flex;
   align-items: center;
 }
@@ -93,7 +94,6 @@ header {
   width: 32px;
   height: 32px;
   align-items: center;
-  margin-left: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,6 +249,11 @@ header {
     min-width: 122px;
   }
 }
+.menu-link:active {
+  background-color: #FBFBFB;
+  color: #7A3145;
+  border-color: #FBFBFB;
+}
 
 .menu-shop-btn {
   display: block;
@@ -264,5 +269,10 @@ header {
   text-transform: uppercase;
   color: #fbfbfb;
   border: none;
+}
+.menu-shop-btn:active {
+  background-color: #FBFBFB;
+  color: #7A3145;
+  border-color: #FBFBFB;
 }
 /* #endregion */
