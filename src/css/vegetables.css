@@ -21,6 +21,7 @@
 
 @media screen and (min-width: 768px) {
   .vegetables-title {
+    max-width: 508px;
     margin-bottom: 24px;
     font-size: 64px;
     line-height: 100%;
@@ -42,10 +43,10 @@
 
 @media screen and (min-width: 768px) {
   .vegetables-article {
-    max-width: 626px;
     font-size: 16px;
     line-height: 125%;
     padding-bottom: 52px;
+    max-width: 626px;
   }
 }
 
