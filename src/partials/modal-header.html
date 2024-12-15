@@ -33,9 +33,8 @@
     </button>
   </div>
 </header>
-
-<div class="backdrop is-open" data-heder>
-  <div class="mobile-menu" data-menu>
+<div class="backdrop" id="backdrop" data-heder>
+  <div class="mobile-menu">
     <button class="menu-close-btn" type="button" data-heder-close>
       <svg class="close-icon" width="32" height="32">
         <use href="img/icons.svg#icon-close-btn"></use>
@@ -52,10 +51,16 @@
         <a class="menu-link" href="#reviews">Reviews</a>
       </li>
     </ul>
-    <button class="menu-shop-btn" type="button">SHOP NOW</button>
+    <button
+      class="menu-shop-btn"
+      type="button"
+      onclick="scrollToSection('your-order')"
+      id="orderButton"
+    >
+      SHOP NOW
+    </button>
   </div>
 </div>
-
 <!-- 
       <button
         type="button"
