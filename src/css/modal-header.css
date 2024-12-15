@@ -261,9 +261,9 @@ header {
   }
 }
 .menu-link:active {
-  background-color: #FBFBFB;
-  color: #7A3145;
-  border-color: #FBFBFB;
+  background-color: #fbfbfb;
+  color: #7a3145;
+  border-color: #fbfbfb;
 }
 
 .menu-shop-btn {
@@ -286,5 +286,5 @@ header {
   background-color: #fbfbfb;
   color: #7a3145;
   border-color: #fbfbfb;
-
+}
 /* #endregion */
