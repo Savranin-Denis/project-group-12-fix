@@ -1,3 +1,4 @@
+
 .section.reviews {
   padding: 80px 0;
   background-color: #fbfbfb;
@@ -55,12 +56,23 @@
     margin-bottom: 52px;
   }
 }
+
+
+@media only screen and (min-width: 768px) {
+  .reviews-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
+
 .reviews-list {
   display: flex;
   flex-direction: row;
   gap: 24px;
   overflow-x: auto;
   scrollbar-width: none;
+
 }
 
 .reviews-item {
@@ -76,7 +88,15 @@
   .reviews-list > .reviews-item {
     padding: 20px;
     height: 248px;
+
+    flex-basis: calc((100% - 1 * 24px) / 2);
+  }
+
+  .reviews-list > .reviews-item:nth-child(3) {
+    display: none;
+
     flex: 0 0 calc((100% - 1 * 24px) / 2);
+
   }
 }
 
