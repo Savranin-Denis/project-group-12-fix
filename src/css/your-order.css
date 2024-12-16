@@ -124,10 +124,10 @@ html {
 
 .fresh-box {
     display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
     margin-bottom: 40px;
 }
 
@@ -141,7 +141,7 @@ html {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    
+
 }
 
 .text-title {
@@ -159,33 +159,35 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
-     .your-order {
+    .your-order {
         padding: 100px 64px;
-     }
-    
-     .fresh-box {
-        display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
-            flex-direction: column;
-            gap: 24px;
-            margin-bottom: 52px;
-            padding: 0px 96px 0px -96px;
-     }
+    }
 
-    .subtitle  {
-                font-size: 64px;
-                /* line-height: 64px; */
-                line-height: 1;
-               
-        }
+    .fresh-box {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 52px;
+        padding: 0px 96px 0px -96px;
+    }
+
+    .subtitle {
+        font-size: 64px;
+        /* line-height: 64px; */
+        line-height: 1;
+
+    }
 
     .modal {
         align-items: center;
         padding: 100px 72px;
-      
-    }    
-    .modal-form-input, .modal-form-message {
+
+    }
+
+    .modal-form-input,
+    .modal-form-message {
         max-width: 440px;
     }
 
@@ -252,6 +254,7 @@ html {
 
     color: #141414;
 }
+
 .modal-form-message {
     border: 1px solid #858585;
     border-radius: 15px;
@@ -262,11 +265,11 @@ html {
 
 .btn {
     border-radius: 30px;
-   
+
     max-width: 295px;
     height: 52px;
     background: #7a3145;
-    
+
     font-weight: 600;
     font-size: 18px;
 
@@ -284,13 +287,11 @@ html {
     background: #7a3145;
     border-radius: 30px;
     padding: 40px 20px;
-    
-       
-}
 
-.socials-img {
 
 }
+
+.socials-img {}
 
 .order-img {
     border-radius: 15px;
@@ -301,11 +302,11 @@ html {
 
 .socials-subtitle {
     font-weight: 700;
-        font-size: 14px;
-    
-        /* line-height: 20px; */
-        line-height: 1.43;
-        color: #d4bfc4;
+    font-size: 14px;
+
+    /* line-height: 20px; */
+    line-height: 1.43;
+    color: #d4bfc4;
     margin-bottom: 16px;
 
 }
@@ -313,26 +314,27 @@ html {
 .socials-list {
 
     display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 8px;
-    }
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+}
 
 
 .socials-item {
 
-        font-weight: 600;
-        font-size: 18px;
-    
-        /* line-height: 20px; */
-        line-height: 1.11;
-        letter-spacing: -0.01em;
-        text-transform: uppercase;
-        color: #fbfbfb;
-   
+    font-weight: 600;
+    font-size: 18px;
+
+    /* line-height: 20px; */
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+
 }
+
 .socials-link {}
 
 .socials-list {
@@ -343,9 +345,82 @@ html {
 
 @media only screen and (min-width: 1280px) {
     .wrapper {
-       display: flex;
-       flex-wrap: nowrap;
-       gap: 32px;    
-       margin-bottom: 0 auto;    
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 32px;
+        margin-bottom: 0 auto;
     }
 }
+
+
+/* .inp-wrp {
+    margin-bottom: 40px;
+}
+
+.inp {
+    width: 400px;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid gray;
+    border-radius: 30px;
+
+    outline: none;
+}
+
+.inp::placeholder {
+    color: black;
+}
+
+.inp:focus {
+    border-color: brown;
+}
+
+.inp:not(:placeholder-shown):invalid {
+    border-color: red;
+}
+
+.inp:not(:placeholder-shown):valid {
+    border-color: green;
+}
+
+.text-valid,
+.text-invalid {
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 4px;
+    display: none;
+}
+
+.text-valid {
+    color: green;
+}
+
+.text-invalid {
+    color: red;
+}
+
+.inp:not(:placeholder-shown):valid~.text-valid {
+    display: block;
+}
+
+
+.inp:not(:placeholder-shown):invalid~.text-invalid {
+    display: block;
+}
+
+.button-send {
+    display: block;
+    margin: 0 auto;
+    min-width: 160px;
+    padding: 12px 24px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 30px;
+
+    cursor: pointer;
+}
+
+.button-send:is(:hover, :focus) {
+    border-color: brown;
+}
+*/
