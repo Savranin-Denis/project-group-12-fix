@@ -181,13 +181,20 @@ html {
         }
 
     .modal {
+        align-items: center;
+        padding: 100px 72px;
       
     }    
+    .modal-form-input, .modal-form-message {
+        max-width: 440px;
+    }
 
     .socials {
         padding: 64px;
     }
 }
+
+
 
 .modal {
     display: flex;
@@ -255,7 +262,7 @@ html {
 
 .btn {
     border-radius: 30px;
-    padding: 16px 129px;
+   
     max-width: 295px;
     height: 52px;
     background: #7a3145;
@@ -328,4 +335,17 @@ html {
 }
 .socials-link {}
 
+.socials-list {
+    display: flex;
+    gap: 12px;
+}
 
+
+@media only screen and (min-width: 1280px) {
+    .wrapper {
+       display: flex;
+       flex-wrap: nowrap;
+       gap: 32px;    
+       margin-bottom: 0 auto;    
+    }
+}
