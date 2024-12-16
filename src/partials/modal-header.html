@@ -32,31 +32,37 @@
       </svg>
     </button>
   </div>
-  <div class="modal-overlay" data-heder>
-    <div class="mobail-menu">
-      <button type="button" class="mobail-btn-close svg" data-heder-close>
-        <svg class="mobail-btn-svg" width="16" height="16">
-          <use href="img/icons.svg#icon-close-btn"></use>
-        </svg>
-      </button>
-      <ul class="mobail-menu-nav">
-        <li class="mob-li">
-          <a href="#how-it-works">How It Works</a>
-        </li>
-        <li class="mob-li">
-          <a href="#vegetables">Vegetables</a>
-        </li>
-        <li class="mob-li">
-          <a href="#reviews">Reviews</a>
-        </li>
-      </ul>
-      <button
-        type="button"
-        class="shop-btn"
-        onclick="scrollToSection('your-order')"
-      >
-        Shop nowW
-      </button>
-    </div>
-  </div>
 </header>
+<div class="backdrop" id="backdrop" data-heder>
+  <div class="mobile-menu">
+    <button
+      class="menu-close-btn"
+      type="button"
+      aria-label="close-menu"
+      data-heder-close
+    >
+      <svg class="close-icon" width="32" height="32">
+        <use href="img/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+    <ul class="menu-list">
+      <li class="menu-list-item">
+        <a class="menu-link" href="#how-it-works">How It Works</a>
+      </li>
+      <li class="menu-list-item">
+        <a class="menu-link" href="#vegetables">Vegetables</a>
+      </li>
+      <li class="menu-list-item">
+        <a class="menu-link" href="#reviews">Reviews</a>
+      </li>
+    </ul>
+    <button
+      class="menu-shop-btn"
+      type="button"
+      onclick="scrollToSection('your-order')"
+      id="orderButton"
+    >
+      shop now
+    </button>
+  </div>
+</div>
