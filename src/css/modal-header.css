@@ -103,6 +103,12 @@ header {
   border: none;
   background-color: transparent;
 }
+@media only screen and (min-width: 768px) {
+  .hedder-burger {
+    width: 40px;
+    height: 40px;
+  }
+}
 
 @media only screen and (min-width: 1280px) {
   .hedder-burger {
@@ -112,7 +118,7 @@ header {
 @media only screen and (min-width: 768px) {
   .burger-s {
     width: 40px;
-      height: 40px;
+    height: 40px;
   }
 }
 
