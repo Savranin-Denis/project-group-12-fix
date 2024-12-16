@@ -1,10 +1,10 @@
-.section.reviews {
+.reviews {
   padding: 80px 0;
   background-color: #fbfbfb;
 }
 
 @media only screen and (min-width: 768px) {
-  .section.reviews {
+  .reviews {
     padding: 100px 0;
   }
 }
@@ -55,6 +55,7 @@
     margin-bottom: 52px;
   }
 }
+
 .reviews-list {
   display: flex;
   flex-direction: row;
@@ -90,14 +91,6 @@
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 24px;
-}
-
-.text-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
 }
 
 .reviews-subtitle {
