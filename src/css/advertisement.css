@@ -1,5 +1,4 @@
 .advertisement-container {
-  /* background-color: orange; */
   background-color: #fbfbfb;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -19,7 +18,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  /* min-height: 312px; */
 }
 @media only screen and (min-width: 768px) {
   .advertisement-block {
