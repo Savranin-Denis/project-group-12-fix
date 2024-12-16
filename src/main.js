@@ -54,9 +54,21 @@ orderButton.addEventListener('click', () => {
   document.getElementById('your-order').scrollIntoView({ behavior: 'smooth' }); // Плавный скролл
 });
 })();
-    (() => {
- function scrollToSection(sectionId) {
-            const section = document.getElementById(sectionId);
-            section.scrollIntoView({ behavior: 'smooth' });
- }
-        })();
+
+  document.addEventListener('DOMContentLoaded', function() {
+    function scrollToSection(id) {
+      const element = document.getElementById(id);
+
+      if (element) {
+        window.scrollTo({
+          top: element.offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    // Вы можете сразу привязать обработчик к кнопке, если хотите
+    document.querySelector('.shop-btn').addEventListener('click', function() {
+      scrollToSection('your-order');
+    });
+  });
