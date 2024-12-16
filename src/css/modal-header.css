@@ -20,9 +20,6 @@ header {
   align-items: center;
 }
 
-.logo-header {
-}
-
 @media only screen and (min-width: 768px) {
   .logo-header {
     margin-right: 448px;
@@ -207,16 +204,20 @@ header {
   right: 30px;
   padding: 0;
   background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 32px;
-  height: 32px;
+  display: block;
+  line-height: 0;
   border: none;
 }
 
 .close-icon {
   fill: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .close-icon {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .menu-list {
