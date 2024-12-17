@@ -1,162 +1,10 @@
 .hero {
-  align-items: flex-end;
-  background-color: #576f35;
-  margin: 0 auto;
-  padding: 0;
-}
-.hero-div {
-  display: flex;
-  flex-direction: column;
-}
-@media only screen and (min-width: 1280px) {
-  .hero-div {
-    flex-direction: row;
-  }
-}
-.hero-wrapper {
-padding: 100px 20px 0px 20px;
-  margin-bottom: 40px;
-}
-
-.hero-title {
-  font-weight: 600;
-  font-size: 52px;
-  line-height: 1;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  color: #fbfbfb;
-  text-align: left;
-
- word-wrap: break-word;
-
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
-
-.hero-subtitle {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.43;
-  color: #fbfbfb;
-}
-
-.background {
-  width: 100%;
-  left: 0;
-  background-image: linear-gradient(
-      rgba(20, 20, 20, 0.2),
-      rgba(20, 20, 20, 0.2)
-    ),
-    url(../img/hero/image-bg-mob.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 372px;
-}
-
-@media (min-resolution: 921dpi), (min-resolution: 2dppx) {
-  .background {
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url(../img/hero/image-bg-mob@2x.jpg);
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  
-  .hero-title {
-    font-size: 76px;
-    margin-bottom: 24px;
-  }
-  .hero-subtitle {
-    font-size: 16px;
-    line-height: 1.25;
-    width: 603px;
-  }
-  .hero-wrapper {
-    margin-bottom: 52px;
-    padding: 120px 32px 0 32px;
-  }
-  .background {
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url(../img/hero/image-bg-tab.jpg);
-    height: 536px;
-  }
-}
-
-@media screen and (min-width: 768px) and (min-resolution: 921dpi),
-  (min-resolution: 2dppx) {
-  .background {
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url(../img/hero/image-bg-tab@2x.jpg);
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .hero-title {
-    max-width: 502px;
-    margin-bottom: 128px;
-  }
-
-  .hero-subtitle {
-    max-width: 472px;
-  }
-
-  .hero-wrapper {
-    padding: 232px 52px 38px 100px;
-    max-width: 1280px;
-    margin-bottom: 0;
-  }
-
-  .background {
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url(../img/hero/Image-bg-desk.jpg);
-    max-width: 640px;
-    min-height: 796px;
-  }
-}
-
-@media screen and (min-width: 1280px) and (min-resolution: 921dpi),
-  (min-resolution: 2dppx) {
-  .background {
-    background-image: linear-gradient(
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
-      url(../img/hero/Image-bg-desk@2x.jpg);
-  }
-}
-.hero {
-    align-items: flex-end;
     background-color: #576f35;
-    margin: 0 auto;
-    padding: 0;
 }
 
-.hero-div {
-    display: flex;
-    flex-direction: column;
-}
-
-@media only screen and (min-width: 1280px) {
-    .hero-div {
-        flex-direction: row;
-    }
-}
 
 .hero-wrapper {
-    padding: 100px 20px 0px 20px;
+    padding-top: 100px;
     margin-bottom: 40px;
 }
 
@@ -167,11 +15,8 @@ padding: 100px 20px 0px 20px;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    text-align: left;
 
     word-wrap: break-word;
-
-    margin: 0 auto;
     margin-bottom: 20px;
 }
 
@@ -183,8 +28,6 @@ padding: 100px 20px 0px 20px;
 }
 
 .background {
-    width: 100%;
-    left: 0;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2),
             rgba(20, 20, 20, 0.2)),
         url(../img/hero/image-bg-mob.jpg);
@@ -204,7 +47,6 @@ padding: 100px 20px 0px 20px;
 }
 
 @media only screen and (min-width: 768px) {
-
     .hero-title {
         font-size: 76px;
         margin-bottom: 24px;
@@ -213,12 +55,12 @@ padding: 100px 20px 0px 20px;
     .hero-subtitle {
         font-size: 16px;
         line-height: 1.25;
-        width: 603px;
+        padding-right: 101px;
     }
 
     .hero-wrapper {
         margin-bottom: 52px;
-        padding: 120px 32px 0 32px;
+        padding-top: 120px;
     }
 
     .background {
@@ -239,27 +81,30 @@ padding: 100px 20px 0px 20px;
 }
 
 @media only screen and (min-width: 1280px) {
+    .hero{
+        display: flex;
+    }
     .hero-title {
-        max-width: 502px;
         margin-bottom: 128px;
     }
 
     .hero-subtitle {
+        padding: 0;
         max-width: 472px;
     }
 
     .hero-wrapper {
-        padding: 232px 52px 38px 100px;
-        max-width: 1280px;
-        margin-bottom: 0;
+    padding-top: 232px;
+        width: 504px;
     }
 
     .background {
         background-image: linear-gradient(rgba(20, 20, 20, 0.2),
                 rgba(20, 20, 20, 0.2)),
             url(../img/hero/Image-bg-desk.jpg);
-        max-width: 640px;
-        min-height: 796px;
+        width: 640px;
+        height: 796px;
+        flex-shrink: 0;
     }
 }
 
