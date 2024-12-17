@@ -33,6 +33,12 @@
   }
 }
 
+@media only screen and (min-width: 1280px) {
+  .title {
+    max-width: 553px;
+  }
+}
+
 .text {
   max-width: 335px;
   font-size: 14px;
@@ -50,22 +56,12 @@
   }
 }
 
-
 .reviews-list {
   display: flex;
   flex-direction: row;
   gap: 24px;
   overflow-x: auto;
   scrollbar-width: none;
-}
-
-@media only screen and (min-width: 768px) {
-  .reviews-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 24px;
-  }
 }
 
 .reviews-item {
@@ -81,13 +77,6 @@
   .reviews-list > .reviews-item {
     padding: 20px;
     height: 248px;
-
-    flex-basis: calc((100% - 1 * 24px) / 2);
-  }
-
-  .reviews-list > .reviews-item:nth-child(3) {
-    display: none;
-
     flex: 0 0 calc((100% - 1 * 24px) / 2);
   }
 }
