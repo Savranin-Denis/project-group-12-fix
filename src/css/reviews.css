@@ -1,0 +1,131 @@
+.reviews {
+  padding: 80px 0;
+  background-color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .reviews {
+    padding: 100px 0;
+  }
+}
+
+.title {
+  max-width: 335px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 20px;
+}
+
+.title-span {
+  color: #576f35;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    max-width: 553px;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+}
+
+.text {
+  max-width: 335px;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #141414;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .text {
+    max-width: 553px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 52px;
+  }
+}
+
+
+.reviews-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .reviews-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+
+.reviews-item {
+  border: 1px solid #d4bfc4;
+  border-radius: 24px;
+  padding: 20px 16px;
+  flex: 0 0 auto;
+  max-width: 335px;
+  background: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .reviews-list > .reviews-item {
+    padding: 20px;
+    height: 248px;
+
+    flex-basis: calc((100% - 1 * 24px) / 2);
+  }
+
+  .reviews-list > .reviews-item:nth-child(3) {
+    display: none;
+
+    flex: 0 0 calc((100% - 1 * 24px) / 2);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .reviews-list > .reviews-item {
+    flex: 0 0 calc((100% - 2 * 24px) / 3);
+  }
+}
+
+.reviews-image {
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.reviews-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #141414;
+  margin-bottom: 8px;
+}
+
+.reviews-item .text {
+  text-align: center;
+  max-width: 288px;
+  color: #858585;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .reviews-item .text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
