@@ -33,12 +33,6 @@
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  .title {
-    max-width: 553px;
-  }
-}
-
 .text {
   max-width: 335px;
   font-size: 14px;
