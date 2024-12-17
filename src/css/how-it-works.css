@@ -1,9 +1,17 @@
 /*секція*/
 .section-how {
-  background: linear-gradient (to right #7A3145 50%, #576f35 50%);
-  margin-bottom: 0;
-  padding: 0;
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .section-how::before {
@@ -12,37 +20,23 @@
   top: 0;
   left: 0;
   width: 100%;
-  /* Розтягнути на всю ширину вікна */
   height: 100%;
-  background: linear-gradient(to right, #7A3145 50%, #576f35 50%);
+  background: linear-gradient(to down, #7A3145 50%, #576f35 50%);
   z-index: -1;
-  /* Розташувати під контентом */
 }
 
-.all {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  padding: 0;
-  margin: 0;
-  margin: 0 auto;
-}
-
-@media only screen and (min-width: 1280px) {
-  .all {
-    flex-direction: row;
 
 
-  }
-}
+
+
 
 .works-img {
-  display: block;
-  background-color: #7A3145;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
 
 }
+
 
 .works-img img {
   border-radius: 30px;
@@ -51,7 +45,6 @@
 
 .works-content {
   padding: 80px 20px;
-  background: #576f35;
   text-align: left;
 
 
@@ -165,12 +158,21 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .all {
+    flex-direction: row;
+    max-width: 1280px;
+  }
 
   .works-img,
   .works-content {
+    flex: 1;
     padding-left: 100px;
     padding-right: 100px;
-    max-width: 50%;
+
+  }
+
+  .section-how::before {
+    background: linear-gradient(to right, #7A3145 50%, #576f35 50%);
   }
 
   .bascket {
