@@ -334,6 +334,7 @@
     gap: 8px;
 }
 
+
 @media only screen and (min-width: 768px) {
     .social-list {
         gap: 12px;
