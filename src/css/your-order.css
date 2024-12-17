@@ -1,353 +1,355 @@
 .your-order {
-    background-color: #576f35;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background-color: #576f35;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
-    .your-order {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+  .your-order {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 
 
 .order-title {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1.08;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
-    margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-    .order-title {
-        font-size: 64px;
-        line-height: 1;
-        margin-bottom: 24px;
-    }
+  .order-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .order-title {
-        max-width: 751px;
-    }
+  .order-title {
+    max-width: 751px;
+  }
 }
 
 .text-title {
-    color: #d4bfc4;
+  color: #d4bfc4;
 }
 
 .subtitle-text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.43;
-    color: #fbfbfb;
-    margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #fbfbfb;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-    .subtitle-text {
-        font-size: 16px;
-        line-height: 1.25;
-        margin-bottom: 52px;
-        max-width: 640px;
-    }
+  .subtitle-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 52px;
+    max-width: 640px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .subtitle-text {
-        max-width: 742px;
-    }
+  .subtitle-text {
+    max-width: 742px;
+  }
 }
 
 
 .wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-    .wrapper {
-        gap: 32px;
-    }
+  .wrapper {
+    gap: 32px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .wrapper {
-        flex-direction: row;
-    }
+  .wrapper {
+    flex-direction: row;
+  }
 }
 
 .modal {
   /* height: 552px;*/
-   width: 100%;
-    border-radius: 30px;
-    padding: 40px 20px;
-    background-color: #fbfbfb;
-    
+  width: 100%;
+  border-radius: 30px;
+  padding: 40px 20px;
+  background-color: #fbfbfb;
+
 }
 
 @media only screen and (min-width: 768px) {
-    .modal {
-        padding: 72px 100px;
-        width: 640px;
-        height: 632px;
-        /* margin-bottom: 32px; */
-    }
+  .modal {
+    padding: 72px 100px;
+    width: 640px;
+    height: 632px;
+    /* margin-bottom: 32px; */
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .modal {
-        padding: 52px 48px;
-        width: 524px;
-        height: 592px;
-    }
+  .modal {
+    padding: 52px 48px;
+    width: 524px;
+    height: 592px;
+  }
 }
 
 
 .modal-caption {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #141414;
-    margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-    .modal-caption {
-        font-size: 32px;
-        margin-bottom: 52px;
-    }
+  .modal-caption {
+    font-size: 32px;
+    margin-bottom: 52px;
+  }
 }
 
 .text-modal-title {
-    color: #7a3145;
+  color: #7a3145;
 }
 
 .text-modal-title-green {
-    color: #576f35;
+  color: #576f35;
 }
 
 .order-form-field {
-   margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .order-form-message {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-    .order-form-message {
-        margin-bottom: 24px;
-    }
+  .order-form-message {
+    margin-bottom: 24px;
+  }
 }
 
 .modal-form-input {
-    border: 1px solid #858585;
-    border-radius: 30px;
-    padding: 14px 16px;
-    width: 100%;
-    height: 48px;
-    outline: transparent;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.43;
+  border: 1px solid #858585;
+  border-radius: 30px;
+  padding: 14px 16px;
+  width: 100%;
+  height: 48px;
+  outline: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
 
-    color: #141414;
+  color: #141414;
 }
+
 @media only screen and (min-width: 768px) {
-    .modal-form-input {
-        font-size: 16px;
-        line-height: 1.25;
-        padding: 16px 14px;
-        height: 52px;
-    }
+  .modal-form-input {
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 16px 14px;
+    height: 52px;
+  }
 }
 
 .modal-form-input:focus {
-    border: 1px solid #7a3145;
+  border: 1px solid #7a3145;
 }
 
 .modal-form-input:not(:placeholder-shown):invalid {
-    border: 1px solid #e74a3b;
+  border: 1px solid #e74a3b;
 }
 
 .modal-form-input:not(:placeholder-shown):valid {
-    border: 1px solid #3cbc81;
+  border: 1px solid #3cbc81;
 }
 
 .modal-form-message {
-    border: 1px solid #858585;
-    outline: transparent;
-    border-radius: 15px;
-    padding: 16px;
-    width: 100%;
-    height: 92px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.43;
-    color: #141414;
+  border: 1px solid #858585;
+  outline: transparent;
+  border-radius: 15px;
+  padding: 16px;
+  width: 100%;
+  height: 92px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #141414;
 }
 
 @media only screen and (min-width: 768px) {
-    .modal-form-message {
-        font-size: 16px;
-        line-height: 1.25;
-    }
+  .modal-form-message {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .modal-form-message:focus {
-    border: 1px solid #7a3145;
+  border: 1px solid #7a3145;
 }
 
 .modal-form-message {
-    border: 1px solid #858585;
-    outline: transparent;
-    border-radius: 15px;
-    padding: 16px;
-    width: 100%;
-    height: 92px;
-    font-weight: 500;
-        font-size: 14px;
-        line-height: 1.43;
-        color: #141414;
+  border: 1px solid #858585;
+  outline: transparent;
+  border-radius: 15px;
+  padding: 16px;
+  width: 100%;
+  height: 92px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #141414;
 }
+
 @media only screen and (min-width: 768px) {
-    .order-form-message {
-        font-size: 16px;
-        line-height: 1.25;
-    }
+  .order-form-message {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .modal-form-message:focus {
-    border: 1px solid #7a3145;
+  border: 1px solid #7a3145;
 }
 
 .btn {
-    border-radius: 30px;
-    border: none;
-    width: 100%;
-    height: 52px;
-    background-color: #7a3145;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.11;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+  height: 52px;
+  background-color: #7a3145;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
 }
 
 @media (hover: hover) {
 
-    .btn:hover,
-    .btn:focus {
-        background-color: #d4bfc4;
-        color: #7a3145;
-    }
+  .btn:hover,
+  .btn:focus {
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
 }
 
 .btn:active {
-    background-color: #fbfbfb;
-    color: #7a3145;
+  background-color: #fbfbfb;
+  color: #7a3145;
 }
 
 
 .socials {
-    background: #7a3145;
-    border-radius: 30px;
-    padding: 40px 20px;
-    max-width: 100%;
-        height: 456px;
+  background: #7a3145;
+  border-radius: 30px;
+  padding: 40px 20px;
+  max-width: 100%;
+  height: 456px;
 }
 
 @media only screen and (min-width: 768px) {
-    .socials {
-        padding: 52px;
-        width: 640px;
-        height: 528px;
-    }
+  .socials {
+    padding: 52px;
+    width: 640px;
+    height: 528px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .socials {
-        padding: 52px 48px;
-        width: 524px;
-        height: 592px;
-    }
+  .socials {
+    padding: 52px 48px;
+    width: 524px;
+    height: 592px;
+  }
 }
 
 .order-img {
-    width: 295px;
-        height: 272px;
-        object-fit: cover;
-    border-radius: 15px;
-    margin-bottom: 20px;
+  width: 295px;
+  height: 272px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-    .order-img {
-        width: 536px;
-        height: 316px;
-        margin-bottom: 52px;
-    }
+  .order-img {
+    width: 536px;
+    height: 316px;
+    margin-bottom: 52px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .order-img {
-        width: 428px;
-        height: 352px;
-        margin-bottom: 80px;
-    }
+  .order-img {
+    width: 428px;
+    height: 352px;
+    margin-bottom: 80px;
+  }
 }
 
 .socials-subtitle {
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.43;
-    color: #d4bfc4;
-    margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #d4bfc4;
+  margin-bottom: 16px;
 }
 
 @media only screen and (min-width: 768px) {
-    .socials-subtitle {
-        font-size: 16px;
-        line-height: 1.25;
-    }
+  .socials-subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .socials-list {
 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 
 @media only screen and (min-width: 768px) {
-    .social-list {
-        gap: 12px;
-    }
+  .social-list {
+    gap: 12px;
+  }
 }
 
 .socials-item {
 
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.11;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
 
 }
