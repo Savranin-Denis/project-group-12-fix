@@ -18,7 +18,7 @@
 }
 
 .works-content {
-  padding: 80px 0;
+  padding: 80px 20px;
   background: #576f35;
   text-align: left;
   align-items: center;
@@ -53,6 +53,7 @@
   list-style: none;
   padding: 0;
   gap: 20px;
+  margin: 0;
 }
 
 .ol-list li {
