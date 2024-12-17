@@ -1,22 +1,3 @@
-(() => {
-  const refs = {
-    // Додати атрибут data-modal-open на кнопку відкриття
-    openModalBtn: document.querySelector("[data-heder-open]"),
-    // Додати атрибут data-modal-close на кнопку закриття
-    closeModalBtn: document.querySelector("[data-heder-close]"),
-    // Додати атрибут data-modal на бекдроп модалки
-    modal: document.querySelector("[data-heder]"),
-  };
-
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
-
-  function toggleModal() {
-    // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
-    refs.modal.classList.toggle("is-open");
-  }
-})();
-(() => {
 // Получаем элементы
 const menuBtn = document.querySelector('.hedder-burger.svg'); // Кнопка для открытия меню
 const closeBtn = document.querySelector('.menu-close-btn'); // Кнопка для закрытия меню
@@ -53,22 +34,3 @@ orderButton.addEventListener('click', () => {
   backdrop.classList.remove('is-open'); // Закрываем меню
   document.getElementById('your-order').scrollIntoView({ behavior: 'smooth' }); // Плавный скролл
 });
-})();
-
-document.addEventListener('DOMContentLoaded', function() {
-    function scrollToSection(id) {
-      const element = document.getElementById(id);
-
-      if (element) {
-        window.scrollTo({
-          top: element.offsetTop,
-          behavior: 'smooth'
-        });
-      }
-    }
-
-    // Вы можете сразу привязать обработчик к кнопке, если хотите
-    document.querySelector('.shop-btn').addEventListener('click', function() {
-      scrollToSection('your-order');
-    });
-  });

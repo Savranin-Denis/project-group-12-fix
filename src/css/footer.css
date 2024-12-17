@@ -1,0 +1,144 @@
+.footer {
+  background-color: #7a3145;
+  padding: 40px 20px;
+  min-width: 320px;
+}
+
+.footer-text {
+  margin-top: 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fbfbfb;
+}
+
+.footer-navigation {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-contacts {
+  margin-bottom: 80px;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fbfbfb;
+  font-style: normal;
+}
+
+.address-link {
+  display: flex;
+  max-width: 179px;
+}
+
+.footer-privacy {
+  display: flex;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #d4bfc4;
+}
+
+.footer-trade-mark {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #d4bfc4;
+}
+
+.phone-link {
+  margin-bottom: 14px;
+}
+.footer-privacy-list {
+  display: flex;
+  gap: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding: 32px;
+    min-width: 768px;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .logo-footer {
+    display: block;
+  }
+  .footer-text {
+    width: 265px;
+    margin-top: 24px;
+    font-size: 16px;
+  }
+  .footer-navigation {
+    display: flex;
+    margin-top: 0;
+    justify-content: flex-end;
+    padding-top: 0;
+  }
+  .footer-nav-li {
+    gap: 24px;
+  }
+  .footer-trade-mark {
+    margin-top: 0;
+  }
+  .footer-contacts {
+    margin-top: 64px 0 100px;
+    gap: 24px;
+  }
+  .address-link {
+    max-width: 215px;
+    font-size: 16px;
+  }
+  .phone-link {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .footer-privacy,
+  .footer-trade-mark {
+    font-size: 16px;
+  }
+
+  .footer-trade-mark {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer {
+    padding: 52px 100px;
+    min-width: 1280px;
+  }
+  .footer-container-logo {
+    margin-right: 250px;
+    margin-bottom: 124px;
+  }
+  .footer-nav-list {
+    margin-right: 121px;
+  }
+  .navigation-container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-contacts {
+    margin: 0 auto;
+  }
+}
