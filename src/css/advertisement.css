@@ -1,22 +1,22 @@
-.section-container {
+.advertisement-section {
   background-color: #fbfbfb;
-  background-color: orange;
   padding-top: 80px;
   padding-bottom: 80px;
+  margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
-  .section-container {
+  .advertisement-section {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .section-container {
-    padding: 100px;
+  .advertisement-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
-.advertisement-container {
-}
+
 .advertisement-block {
   display: flex;
   flex-direction: column;
@@ -84,7 +84,6 @@
     transform: translateX(16px) translateY(4px);
   }
 }
-
 .text-advertisement-select {
   color: #fbfbfb;
 }
