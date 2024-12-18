@@ -1,7 +1,19 @@
 .footer {
   background-color: #7a3145;
-  padding: 40px 20px;
-  min-width: 320px;
+  min-width: 375px;
+}
+
+.footer-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-wrap {
+  margin-bottom: 80px;
+}
+
+.icon-logo {
+  display: block;
 }
 
 .footer-text {
@@ -14,11 +26,13 @@
 
 .footer-navigation {
   margin-top: 40px;
+  margin-bottom: 40px;
   font-weight: 600;
   font-size: 32px;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  line-height: 1;
 }
 
 .footer-nav-list {
@@ -28,8 +42,6 @@
 }
 
 .footer-contacts {
-  margin-bottom: 80px;
-  margin-top: 40px;
   font-weight: 700;
   font-size: 14px;
   line-height: 143%;
@@ -43,8 +55,6 @@
 }
 
 .footer-privacy {
-  display: flex;
-  gap: 8px;
   font-weight: 500;
   font-size: 14px;
   line-height: 143%;
@@ -65,16 +75,21 @@
 .footer-privacy-list {
   display: flex;
   gap: 8px;
+  margin-bottom: 16px;
 }
 
 @media only screen and (min-width: 768px) {
   .footer {
-    padding: 32px;
+    padding: 0px;
     min-width: 768px;
   }
   .footer-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .footer-wrap {
+    margin-bottom: 100px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
   }
   .logo-footer {
@@ -86,16 +101,14 @@
     font-size: 16px;
   }
   .footer-navigation {
-    display: flex;
+    margin-bottom: 64px;
     margin-top: 0;
-    justify-content: flex-end;
-    padding-top: 0;
+  }
+  .footer-nav-list {
+    gap: 24px;
   }
   .footer-nav-li {
     gap: 24px;
-  }
-  .footer-trade-mark {
-    margin-top: 0;
   }
   .footer-contacts {
     margin-top: 64px 0 100px;
@@ -109,25 +122,33 @@
     font-size: 16px;
     margin-bottom: 24px;
   }
-
+  .footer-privacy-list {
+    margin-bottom: 0;
+  }
   .footer-privacy,
   .footer-trade-mark {
     font-size: 16px;
-  }
-
-  .footer-trade-mark {
-    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .footer {
-    padding: 52px 100px;
     min-width: 1280px;
+  }
+  .footer-container {
+    padding-top: 52px;
+    padding-bottom: 52px;
+  }
+  .footer-wrap {
+    margin-bottom: 120px;
+  }
+  .footer-navigation {
+    margin-bottom: 0;
   }
   .footer-container-logo {
     margin-right: 250px;
-    margin-bottom: 124px;
   }
   .footer-nav-list {
     margin-right: 121px;
