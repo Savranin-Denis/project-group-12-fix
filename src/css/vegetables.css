@@ -5,6 +5,12 @@
   background-color: #7a3145;
 }
 
+@media screen and (min-width: 768px) {
+  .vegetables {
+    padding: 100px 0;
+  }
+}
+
 .vegetables-title {
   display: flex;
   justify-content: center;
@@ -14,7 +20,7 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 108%;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #fbfbfb;
 }
