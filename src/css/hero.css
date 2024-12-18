@@ -1,10 +1,10 @@
 .hero {
     background-color: #576f35;
-    padding: 100px 0 0 0;
 }
 
 
-.hero-text-block {
+.hero-wrapper {
+    padding-top: 100px;
     margin-bottom: 40px;
 }
 
@@ -49,12 +49,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .hero{
-        padding-top: 120px;
-    }
-    .block{
-        display: flex;
-    }
     .hero-title {
         font-size: 76px;
         margin-bottom: 24px;
@@ -63,11 +57,12 @@
     .hero-subtitle {
         font-size: 16px;
         line-height: 1.25;
-        width: 603px;
+        padding-right: 101px;
     }
 
-    .hero-text-block {
+    .hero-wrapper {
         margin-bottom: 52px;
+        padding-top: 120px;
     }
 
     .background {
@@ -90,30 +85,9 @@
 
 @media only screen and (min-width: 1280px) {
     .hero-div{
-        width: 100%;
         display: flex;
-        padding: 232px 0 52px 0;
-        background-image: linear-gradient(rgba(20, 20, 20, 0.2),
-                        rgba(20, 20, 20, 0.2)),
-                    url(../img/hero/Image-bg-desk.jpg);
-        background-position: 100% 0;
-        background-size: 50vw;
-        background-repeat: no-repeat;
-        
-    }
-    .hero-wrapp{
-        width: 100%;
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .block{
-        width: 100%;
-            flex-direction: row;
-            padding-right: 0;
     }
     .hero-title {
-        width: 504px;
         margin-bottom: 128px;
     }
 
@@ -125,11 +99,9 @@
     .hero-wrapper {
     padding-top: 232px;
     width: 540px;
-    margin-bottom: 0;
     }
 
     .background {
-        display: none;
         background-image: linear-gradient(rgba(20, 20, 20, 0.2),
                 rgba(20, 20, 20, 0.2)),
             url(../img/hero/Image-bg-desk.jpg);
