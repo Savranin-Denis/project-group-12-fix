@@ -6,7 +6,7 @@
   font-weight: 500;
 
   color: #141414;
-  background-color: #fbfbfb;
+  background-color: pink;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,4 +27,12 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hide {
+  display: none;
 }
