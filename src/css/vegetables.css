@@ -5,6 +5,12 @@
   background-color: #7a3145;
 }
 
+@media screen and (min-width: 768px) {
+  .vegetables {
+    padding: 100px 0;
+  }
+}
+
 .vegetables-title {
   display: flex;
   justify-content: center;
