@@ -1,6 +1,6 @@
-<header class="container">
-  <div class="header-container">
-    <a href="./index.html" target="_blank" class="logo-header svg">
+<header class="section">
+  <div class="container header-container">
+    <a href="./index.html" target="" class="logo-header svg">
       <svg class="icon-logo" width="168" height="16">
         <use href="img/icons.svg#icon-logo"></use>
       </svg>
@@ -31,5 +31,32 @@
         <use href="img/icons.svg#icon-mobile-menu"></use>
       </svg>
     </button>
+  </div>
+  <div class="modal-overlay" data-heder>
+    <div class="mobail-menu">
+      <button type="button" class="mobail-btn-close svg" data-heder-close>
+        <svg class="mobail-btn-svg" width="16" height="16">
+          <use href="img/icons.svg#icon-close-btn"></use>
+        </svg>
+      </button>
+      <ul class="mobail-menu-nav">
+        <li class="mob-li">
+          <a href="#how-it-works">How It Works</a>
+        </li>
+        <li class="mob-li">
+          <a href="#vegetables">Vegetables</a>
+        </li>
+        <li class="mob-li">
+          <a href="#reviews">Reviews</a>
+        </li>
+      </ul>
+      <button
+        type="button"
+        class="shop-btn"
+        onclick="scrollToSection('your-order')"
+      >
+        Shop nowW
+      </button>
+    </div>
   </div>
 </header>

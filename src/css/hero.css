@@ -1,21 +1,13 @@
-.hero{
-    align-items: flex-end;
+.hero {
     background-color: #576f35;
-    margin: 0 auto;
-    padding: 100px 0px 0px 0px;
 }
-.hiro-div {
-    display: flex;
-    flex-direction: column;
-}
-@media only screen and (min-width:1280px) {
-    .hiro-div {
-        flex-direction: row;
-    }
-}
-.hero-wrapper{
+
+
+.hero-wrapper {
+    padding-top: 100px;
     margin-bottom: 40px;
 }
+
 
 .hero-title {
     font-weight: 600;
@@ -24,9 +16,8 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    text-align: left;
 
-    margin: 0 auto;
+    word-wrap: break-word;
     margin-bottom: 20px;
 }
 
@@ -37,86 +28,96 @@
     color: #fbfbfb;
 }
 
-.background{
-    width: 100%;
-    left: 0;
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2),rgba(20, 20, 20, 0.2)), url(../img/hero/image-bg-mob.jpg);
+.background {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2),
+            rgba(20, 20, 20, 0.2)),
+        url(../img/hero/image-bg-mob.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 372px;
+    margin: 0 -20px;
 }
 
-@media (min-resolution:921dpi),
-(min-resolution:2dppx) {
+@media (min-resolution: 921dpi),
+(min-resolution: 2dppx) {
     .background {
-        background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero/image-bg-mob@2x.jpg);
+        background-image: linear-gradient(rgba(20, 20, 20, 0.2),
+                rgba(20, 20, 20, 0.2)),
+            url(../img/hero/image-bg-mob@2x.jpg);
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .hero{
-        padding: 120px 0px 0px 0px;
+    .hero-title {
+        font-size: 76px;
+        margin-bottom: 24px;
     }
-    .hero-title{
-     font-size: 76px;
-     margin-bottom: 24px;
+
+    .hero-subtitle {
+        font-size: 16px;
+        line-height: 1.25;
+        padding-right: 101px;
     }
-    .hero-subtitle{
-     font-size: 16px;
-    line-height: 1.25;
-    width: 603px;
+
+    .hero-wrapper {
+        margin-bottom: 52px;
+        padding-top: 120px;
     }
-    .hero-wrapper{
-     margin-bottom: 52px;
+
+    .background {
+        background-image: linear-gradient(rgba(20, 20, 20, 0.2),
+                rgba(20, 20, 20, 0.2)),
+            url(../img/hero/image-bg-tab.jpg);
+        height: 536px;
+        margin: 0 -32px;
     }
-    .background{
-     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/hero/image-bg-tab.jpg);
-     height: 536px;
-    }
-    
 }
 
-@media screen and (min-width:768px) and (min-resolution:921dpi),
-(min-resolution:2dppx) {
+@media screen and (min-width: 768px) and (min-resolution: 921dpi),
+(min-resolution: 2dppx) {
     .background {
-        background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+        background-image: linear-gradient(rgba(20, 20, 20, 0.2),
+                rgba(20, 20, 20, 0.2)),
             url(../img/hero/image-bg-tab@2x.jpg);
     }
 }
 
 @media only screen and (min-width: 1280px) {
-    .hero{
-        padding: 0;
-
+    .hero-div{
+        display: flex;
     }
     .hero-title {
-        max-width: 502px;
         margin-bottom: 128px;
-        }
-    
-    .hero-subtitle {
-        max-width: 472px;
-        }
-    
-    .hero-wrapper {
-        padding: 232px 52px 38px 100px;
-        max-width: 1280px;
-        margin-bottom: 0;
-        }
-    
-    .background {
-        background-image: linear-gradient(rgba(20, 20, 20, 0.2),rgba(20, 20, 20, 0.2)), url(../img/hero/Image-bg-desk.jpg);
-       max-width: 640px;
-       min-height: 796px;
-        }
     }
 
+    .hero-subtitle {
+        padding: 0;
+        max-width: 472px;
+    }
 
-@media screen and (min-width:1280px) and (min-resolution:921dpi),
-(min-resolution:2dppx) {
+    .hero-wrapper {
+    padding-top: 232px;
+    width: 540px;
+    }
+
     .background {
-        background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+        background-image: linear-gradient(rgba(20, 20, 20, 0.2),
+                rgba(20, 20, 20, 0.2)),
+            url(../img/hero/Image-bg-desk.jpg);
+        width: 640px;
+        height: 796px;
+        flex-shrink: 0;
+        margin: 0;
+
+    }
+}
+
+@media screen and (min-width: 1280px) and (min-resolution: 921dpi),
+(min-resolution: 2dppx) {
+    .background {
+        background-image: linear-gradient(rgba(20, 20, 20, 0.2),
+                rgba(20, 20, 20, 0.2)),
             url(../img/hero/Image-bg-desk@2x.jpg);
     }
 }
