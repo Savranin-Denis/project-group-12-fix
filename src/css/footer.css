@@ -34,12 +34,20 @@
   color: #fbfbfb;
   line-height: 1;
 }
+@media (hover: hover) {
+.footer-navigator:hover,
+.footer-navigator:focus {
+        background-color: #d4bfc4;
+        color: #7a3145;
+    }
+}
 
 .footer-nav-list {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
+
 
 .footer-contacts {
   font-weight: 700;
