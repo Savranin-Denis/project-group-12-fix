@@ -465,14 +465,6 @@
     text-transform: uppercase;
     color: #fbfbfb;
 }
-@media (hover: hover) {
-    .cont-shop-social-links:hover,
-    .cont-shop-social-links:focus {
-        background-color: #d4bfc4;
-        color: #7a3145;
-    }
-}
-
 
 .divider::before,
 .divider::after {
