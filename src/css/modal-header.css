@@ -52,7 +52,7 @@ header {
   }
 }
 
-.nav-li {
+.navigator {
   white-space: nowrap;
   color: #fbfbfb;
   background-color: transparent;
@@ -68,11 +68,12 @@ header {
   text-align: center;
 }
 @media (hover: hover) {
-.nav-li:hover, .nav-li:focus {
-  background-color: #d4bfc4;
-  color: #7a3145;
-  border-color: #7a3145;
-}
+  .navigator:hover,
+  .navigator:focus {
+    background-color: #d4bfc4;
+    color: #7a3145;
+    border-color: #7a3145;
+  }
 }
 
 .nav-li:active {
@@ -146,11 +147,12 @@ header {
 }
 
 @media (hover: hover) {
-.shop-btn:hover, .shop-btn:focus {
-  background-color: #d4bfc4;
-  color: #7a3145;
-  border-color: #7a3145;
-}
+  .shop-btn:hover,
+  .shop-btn:focus {
+    background-color: #d4bfc4;
+    color: #7a3145;
+    border-color: #7a3145;
+  }
 }
 
 .shop-btn:active {
