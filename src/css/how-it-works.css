@@ -1,22 +1,27 @@
 /*секція*/
 .how-it-works {
-    background: linear-gradient(to bottom, #7a3145 39%, #576f35 0%);
+  background: linear-gradient(to bottom, #7a3145 39%, #576f35 0%);
+  min-width: 320px;
 }
+
 @media only screen and (min-width: 375px) {
   .how-it-works {
     background: linear-gradient(to bottom, #7a3145 44%, #576f35 0%);
   }
 }
+
 @media only screen and (min-width: 768px) {
   .how-it-works {
-     background: linear-gradient(to bottom, #7a3145 54%, #576f35 0%);
-    }
+    background: linear-gradient(to bottom, #7a3145 54%, #576f35 0%);
+  }
 }
+
 @media only screen and (min-width: 1280px) {
   .how-it-works {
-      background: linear-gradient(to right, #7A3145 50%, #576f35 50%);
-    }
+    background: linear-gradient(to right, #7A3145 50%, #576f35 50%);
+  }
 }
+
 .section-how {
   display: flex;
   flex-direction: column;
@@ -38,25 +43,25 @@
 
 }
 
-.works-img img {
-  border-radius: 30px;
-}
+
 .works-div-img {
-    max-width: 335px;
-    max-height: 452px;
+  max-width: 335px;
+  max-height: 452px;
 }
+
 @media only screen and (min-width: 768px) {
   .works-div-img {
     max-width: 640px;
     max-height: 640px;
   }
 }
-     @media only screen and (min-width: 1280px) {
-      .works-div-img {
-          max-width: 440px;
-          max-height: 560px;
-        }
-     }
+
+@media only screen and (min-width: 1280px) {
+  .works-div-img {
+    max-width: 440px;
+    max-height: 560px;
+  }
+}
 
 .img-size {
   border-radius: 30px;
@@ -168,7 +173,7 @@
   .works-img {
     padding: 100px 32px;
   }
-   
+
 
   .works-content {
     padding: 100px 132px;
@@ -202,9 +207,10 @@
   .works-img {
     padding: 100px 100px 100px 0;
   }
+
   .works-content {
     padding: 100px 0 100px 100px;
-    }
+  }
 
   .bascket {
     margin-bottom: 104px;
