@@ -110,8 +110,7 @@
 }
 
 .cont-shop-form-box {
-    max-width: 320px;
-    max-height: 552px;
+    max-width: 280px;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -120,7 +119,12 @@
     padding: 40px 20px;
     background-color: #fbfbfb;
 }
-
+@media only screen and (min-width: 350px) {
+    .cont-shop-form-box {
+            max-width: 375px;
+            max-height: 552px;
+        }
+}
 @media only screen and (min-width: 768px) {
     .cont-shop-form-box {
         padding: 72px 100px;
@@ -172,7 +176,6 @@
 .cont-shop-form {
     max-width: 295px;
     max-height: 292px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,9 +221,13 @@
 }
 
 .cont-shop-form-field {
-    min-width: 295px;
+    width: 240px;
 }
-
+@media only screen and (min-width: 350px) {
+    .cont-shop-form-field {
+        min-width: 295px;
+    }
+}
 @media only screen and (min-width: 768px) {
     .cont-shop-form-field {
         min-width: 440px;
@@ -234,10 +241,14 @@
 }
 
 .cont-shop-comment-field {
-    min-width: 295px;
+    width: 100%;
     height: 92px;
 }
-
+@media only screen and (min-width: 350px) {
+    .cont-shop-comment-field {
+        min-width: 295px;
+    }
+}
 @media only screen and (min-width: 768px) {
     .cont-shop-comment-field {
         min-width: 440px;
@@ -319,14 +330,13 @@
 
 .cont-shop-btn {
     display: block;
-    max-width: 295px;
+    width: 100%;
     height: 52px;
-    margin: 0 auto;
     cursor: pointer;
     border: none;
     background-color: #7a3145;
     border-radius: 30px;
-    padding: 16px 129px;
+    padding: 0;
 
     font-weight: 600;
     font-size: 18px;
@@ -335,7 +345,11 @@
     text-transform: uppercase;
     color: #fbfbfb;
 }
-
+@media only screen and (min-width: 350px) {
+    .cont-shop-btn {
+    min-width: 295px;
+    }
+}
 @media (hover: hover) {
 
     .cont-shop-btn:hover,
@@ -364,13 +378,17 @@
 
 .cont-shop-social {
     display: flex;
-    max-width: 320px;
-    min-height: 456px;
 
     background-color: #7a3145;
     border-radius: 30px;
     padding: 40px 20px;
-
+    max-width: 280px;
+}
+@media only screen and (min-width: 350px) {
+    .cont-shop-social {
+    max-width: 320px;
+    min-height: 456px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -424,12 +442,16 @@
     display: block;
     height: 20px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 125%;
     color: #d4bfc4;
     margin-bottom: 16px;
 }
-
+@media only screen and (min-width: 350px) {
+    .cont-shop-social-text {
+            font-size: 16px;
+        }
+}
 .cont-shop-social-list {
     max-width: 295px;
     display: flex;
@@ -459,21 +481,30 @@
 .cont-shop-social-links {
     display: inline-block;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 111%;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
 }
+@media only screen and (min-width: 350px) {
+    .cont-shop-social-links {
+            font-size: 18px;
+        }
+}
 @media (hover: hover) {
+
     .cont-shop-social-links:hover,
     .cont-shop-social-links:focus {
         background-color: #d4bfc4;
         color: #7a3145;
     }
 }
-
-
+hover,
+hoverfocus {
+    background-color: #d4bfc4;
+    color: #7a3145;
+}
 .divider::before,
 .divider::after {
     display: inline-block;
