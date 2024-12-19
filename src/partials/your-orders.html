@@ -28,6 +28,8 @@
                 name="user-full-name"
                 placeholder="Full Name"
                 minlength="2"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
               />
             </div>
             <div class="cont-shop-form-field">
@@ -36,6 +38,8 @@
                 type="email"
                 name="user-email"
                 placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
               />
             </div>
           </div>
@@ -85,13 +89,25 @@
           <p class="cont-shop-social-text">Follow us on our social networks:</p>
           <ul class="cont-shop-social-list">
             <li class="cont-shop-social-items">
-              <a href="" class="cont-shop-social-links">Instagram</a>
+              <a
+                href="https://www.instagram.com/goitclub/"
+                class="cont-shop-social-links"
+                >Instagram</a
+              >
             </li>
             <li class="cont-shop-social-items divider">
-              <a href="" class="cont-shop-social-links">Facebook</a>
+              <a
+                href="https://www.facebook.com/goITclub/"
+                class="cont-shop-social-links"
+                >Facebook</a
+              >
             </li>
             <li class="cont-shop-social-items">
-              <a href="" class="cont-shop-social-links">Youtube</a>
+              <a
+                href="https://www.youtube.com/c/GoIT"
+                class="cont-shop-social-links"
+                >Youtube</a
+              >
             </li>
           </ul>
         </div>
