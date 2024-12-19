@@ -2,7 +2,7 @@
 .how-it-works {
     background: linear-gradient(to bottom, #7a3145 39%, #576f35 0%);
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
   .how-it-works {
     background: linear-gradient(to bottom, #7a3145 44%, #576f35 0%);
   }
