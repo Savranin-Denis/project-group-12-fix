@@ -63,7 +63,7 @@
   border-radius: 24px;
   padding: 20px 16px;
   flex: 0 0 auto;
-  max-width: 335px;
+  max-width: 100%;
   background: #fbfbfb;
 }
 
