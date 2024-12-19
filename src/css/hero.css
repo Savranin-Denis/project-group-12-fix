@@ -4,8 +4,7 @@
 
 
 .hero-wrapper {
-    padding-top: 100px;
-    margin-bottom: 40px;
+    padding: 100px 0 40px;
 }
 
 
@@ -61,8 +60,7 @@
     }
 
     .hero-wrapper {
-        margin-bottom: 52px;
-        padding-top: 120px;
+        padding: 120px 0 52px;
     }
 
     .background {
