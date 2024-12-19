@@ -1,4 +1,9 @@
 /*секція*/
+@media only screen and (max-width: 374px) {
+  .how-it-works {
+    background: linear-gradient(to bottom, #7a3145 39%, #576f35 0%);
+  }
+}
 .how-it-works {
     background: linear-gradient(to bottom, #7a3145 44%, #576f35 0%);
 }
