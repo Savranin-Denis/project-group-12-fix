@@ -67,7 +67,7 @@ header {
     text-align: center;
 }
 
-.nav-li:hover {
+.nav-li:hover, .nav-li:focus {
     background-color: #D4BFC4;
     color: #7A3145;
     border-color: #7A3145;
@@ -217,7 +217,7 @@ header {
     border-radius: 30px;
 }
 
-.shop-btn:hover {
+.shop-btn:hover, .shop-btn:focus {
     background-color: #D4BFC4;
     color: #7A3145;
     border-color: #7A3145;
