@@ -115,7 +115,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-
+    align-items: center;
     border-radius: 30px;
     padding: 40px 20px;
     background-color: #fbfbfb;
@@ -197,15 +197,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    gap: 16px;
     max-width: 295px;
     min-height: 112px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
     .cont-shop-form-wrapper {
         max-width: 440px;
         min-height: 120px;
+        margin-bottom: 24px;
     }
 }
 
@@ -217,7 +219,6 @@
 
 .cont-shop-form-field {
     min-width: 295px;
-    margin-bottom: 16px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -235,13 +236,11 @@
 .cont-shop-comment-field {
     min-width: 295px;
     height: 92px;
-    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
     .cont-shop-comment-field {
         min-width: 440px;
-        margin-bottom: 24px;
     }
 }
 
