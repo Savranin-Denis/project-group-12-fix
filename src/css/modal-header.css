@@ -1,5 +1,4 @@
 header {
-  display: block;
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
@@ -12,6 +11,7 @@ header {
   }
 }
 .svg {
+  display: block;
   fill: #fbfbfb;
 }
 
