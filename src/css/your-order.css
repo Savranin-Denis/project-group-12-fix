@@ -2,16 +2,75 @@
   background-color: #576f35;
   padding-top: 80px;
   padding-bottom: 80px;
+  min-width: 100%;
+  max-width: 767px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
   .your-order {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
   }
 }
 
+.fresh-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+@media only screen and (min-width: 768px) {
+  .fresh-box {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .fresh-box {
+    max-width: 1280px;
+  }
+}
+
+.fresh-box-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 335px;
+  height: 100%;
+  margin-bottom: 40px;
+  overflow-y: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .fresh-box-content {
+    max-width: 640px;
+    margin-bottom: 52px;
+    align-self: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .fresh-box-content {
+    max-width: 751px;
+    align-self: flex-start;
+  }
+}
+
+.order-wrapper {
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media only screen and (min-width: 1280px) {
+  .order-wrapper {
+   flex-direction: row;
+   gap: 32px;
+  }
+}
 
 .order-title {
   font-weight: 600;
@@ -46,7 +105,7 @@
   font-size: 14px;
   line-height: 1.43;
   color: #fbfbfb;
-  margin-bottom: 40px;
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -65,7 +124,7 @@
 }
 
 
-.wrapper {
+.order-wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -73,18 +132,18 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .wrapper {
+  .order-wrapper {
     gap: 32px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .wrapper {
+  .order-wrapper {
     flex-direction: row;
   }
 }
 
-.modal {
+.form {
   /* height: 552px;*/
   width: 100%;
   border-radius: 30px;
@@ -94,7 +153,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .modal {
+  .form {
     padding: 72px 100px;
     width: 640px;
     height: 632px;
@@ -103,7 +162,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .modal {
+  .form {
     padding: 52px 48px;
     width: 524px;
     height: 592px;
@@ -111,7 +170,7 @@
 }
 
 
-.modal-caption {
+.form-caption {
   font-weight: 600;
   font-size: 28px;
   line-height: 1;
@@ -122,17 +181,17 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .modal-caption {
+  .form-caption {
     font-size: 32px;
     margin-bottom: 52px;
   }
 }
 
-.text-modal-title {
+.text-title-marron {
   color: #7a3145;
 }
 
-.text-modal-title-green {
+.text-title-green {
   color: #576f35;
 }
 
@@ -150,7 +209,7 @@
   }
 }
 
-.modal-form-input {
+.form-input {
   border: 1px solid #858585;
   border-radius: 30px;
   padding: 14px 16px;
@@ -165,7 +224,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .modal-form-input {
+  .form-input {
     font-size: 16px;
     line-height: 1.25;
     padding: 16px 14px;
@@ -173,19 +232,19 @@
   }
 }
 
-.modal-form-input:focus {
+.form-input:focus {
   border: 1px solid #7a3145;
 }
 
-.modal-form-input:not(:placeholder-shown):invalid {
+.form-input:not(:placeholder-shown):invalid {
   border: 1px solid #e74a3b;
 }
 
-.modal-form-input:not(:placeholder-shown):valid {
+.form-input:not(:placeholder-shown):valid {
   border: 1px solid #3cbc81;
 }
 
-.modal-form-message {
+.form-message {
   border: 1px solid #858585;
   outline: transparent;
   border-radius: 15px;
@@ -199,17 +258,17 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .modal-form-message {
+  .form-message {
     font-size: 16px;
     line-height: 1.25;
   }
 }
 
-.modal-form-message:focus {
+.form-message:focus {
   border: 1px solid #7a3145;
 }
 
-.modal-form-message {
+.form-message {
   border: 1px solid #858585;
   outline: transparent;
   border-radius: 15px;
@@ -229,7 +288,7 @@
   }
 }
 
-.modal-form-message:focus {
+.form-message:focus {
   border: 1px solid #7a3145;
 }
 
