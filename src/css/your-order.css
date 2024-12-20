@@ -78,7 +78,6 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
-
   margin-bottom: 20px;
 }
 
@@ -90,16 +89,19 @@
   }
 }
 
-
 .text-title {
-  color: #d4bfc4;form-container {
+  color: #d4bfc4;
+}
+
+.subtitle-text {
   font-weight: 500;
   font-size: 14px;
   line-height: 143%;
   color: #fbfbfb;
 }
 
-@media only screen and (min-width: 768px)form-container {
+@media only screen and (min-width: 768px) {
+  .subtitle-text{ 
     font-size: 16px;
     line-height: 125%;
   }
