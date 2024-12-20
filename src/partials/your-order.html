@@ -1,134 +1,119 @@
-
-<section class="your-order" id="your-order">
-
-  <div class="container fresh-box">
-    <h2 class="order-title">
-      Fresh <span class="text-title">Harvest</span> Box has got you covered
-    </h2>
-    <p class="subtitle-text">
-      Our boxes are packed with delicious, nutritious vegetables, perfect for
-      anyone looking to eat healthier or support local farmers. Order your box
-      today and start enjoying the best that nature has to offer!
-    </p>
-
-    <div class="wrapper">
-      <div class="modal">
-        <p class="modal-caption">
-          Ordering <span class="text-modal-title">from us</span> is quick and
-          easy! Fill out
-          <span class="text-modal-title-green">the form</span> below and we will
-          contact you !
-        </p>
-        <form class="modal-form" name="review">
-          <div class="order-form-field">
-            <label class="modal-form-label" for="user-name"></label>
-            <input
-              class="modal-form-input"
-              type="text"
-              id="user-name"
-              name="user-name"
-              minlength="2"
-              required
-              title="Please switch to english"
-              placeholder="Full Name"
-            />
+<section class="contact-shop" id="your-order">
+  <div class="cont-shop-contaier container">
+    <div class="cont-shop-content">
+      <h2 class="cont-shop-title">
+        Fresh
+        <span class="phrase-decor">Harvest</span> Box has got you covered
+      </h2>
+      <p class="cont-shop-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+    </div>
+    <div class="box-social-wrapper">
+      <div class="cont-shop-form-box">
+        <h3 class="cont-shop-form-title">
+          Ordering
+          <span class="from-us-decor">from us</span> is quick and easy! Fill out
+          <span class="the-form-decor">the form</span> below and we will contact
+          you !
+        </h3>
+        <form class="cont-shop-form">
+          <div class="cont-shop-form-wrapper">
+            <div class="cont-shop-form-field">
+              <input
+                class="cont-shop-input"
+                type="text"
+                name="user-full-name"
+                placeholder="Full Name"
+                minlength="2"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+            </div>
+            <div class="cont-shop-form-field">
+              <input
+                class="cont-shop-input"
+                type="email"
+                name="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+            </div>
+            <div class="cont-shop-comment-field">
+              <textarea
+                class="cont-shop-comment"
+                name="user-comment"
+                placeholder="Comment"
+              ></textarea>
+            </div>
           </div>
-          <div class="order-form-field">
-            <label class="modal-form-label" for="user-email"></label>
-            <input
-              class="modal-form-input"
-              type="email"
-              id="user-email"
-              name="user-email"
-              placeholder="Email"
-              required
-            />
-          </div>
-          <div class="order-form-message">
-            <label class="modal-form-label" for="user-message"></label>
-            <textarea
-              class="modal-form-message"
-              name="user-message"
-              id="user-message"
-              placeholder="Comment"
-            ></textarea>
-          </div>
-          <button class="btn btn-accent" type="submit">Send</button>
+          <button class="cont-shop-btn" type="submit">Send</button>
         </form>
       </div>
-
-      <div class="socials">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              ../img/your-order/img-order-desk.jpg    1x,
-              ../img/your-order/img-order-desk@2x.jpg 2x
-            "
-          />
-
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ../img/your-order/img-order-teb.jpg    1x,
-              ../img/your-order/img-order-tab@2x.jpg 2x
-            "
-          />
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              ../img/your-order/img-order-mob.jpg    1x,
-              ../img/your-order/img-order-mob@2x.jpg 2x
-            "
-          />
-          <img
-            class="order-img"
-            srcset="../img/your-order/img-order-mob.jpg"
-            alt="box-vegetables"
-            width="536"
-            height="352"
-          />
-        </picture>
-
-        <p class="socials-subtitle">Follow us on our social networks:</p>
-        <ul class="socials-list">
-          <li class="socials-item">
-            <a
-              class="socials-link"
-              href="https://www.instagram.com/goitclub/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Link to Instagram"
-              >INSTAGRAM</a
-            >
-          </li>
-          <li class="socials-item">
-            <p>/</p>
-          </li>
-          <li class="socials-item">
-            <a
-              class="socials-link"
-              href="https://www.facebook.com/goITclub/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Link to facebook"
-              >FACEBOOK</a
-            >
-          </li>
-          <li class="socials-item">
-            <p>/</p>
-          </li>
-          <li class="socials-item">
-            <a
-              class="socials-link"
-              href="https://www.youtube.com/c/GoIT"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Link to youtube"
-              >YOUTOUBE</a
-            >
-          </li>
-        </ul>
+      <div class="cont-shop-social">
+        <div class="cont-shop-social-wrapper">
+          <div class="cont-shop-social-thumb">
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  img/your-order/pic_desk@1x.png 1x,
+                  img/your-order/pic_desk@2x.png 2x
+                "
+              />
+              <source
+                media="(min-width: 768px) and (max-width: 1279px)"
+                srcset="
+                  img/your-order/pic_tab@1x.png 1x,
+                  img/your-order/pic_tab@2x.png 2x
+                "
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  img/your-order/pic_mob@1x.png 1x,
+                  img/your-order/pic_mob@2x.png 2x
+                "
+              />
+              <img
+                src="img/your-order/pic_mob@1x.png"
+                alt="Woman makes fresh of lemon"
+                width="536"
+                height="352"
+              />
+            </picture>
+          </div>
+          <p class="cont-shop-social-text">Follow us on our social networks:</p>
+          <ul class="cont-shop-social-list">
+            <li class="cont-shop-social-items">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/goitclub/"
+                class="cont-shop-social-links"
+                >Instagram</a
+              >
+            </li>
+            <li class="cont-shop-social-items divider">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/goITclub/"
+                class="cont-shop-social-links"
+                >Facebook</a
+              >
+            </li>
+            <li class="cont-shop-social-items">
+              <a
+                target="_blank"
+                href="https://www.youtube.com/c/GoIT"
+                class="cont-shop-social-links"
+                >Youtube</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
