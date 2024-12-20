@@ -11,119 +11,125 @@
       </p>
     </div>
     <div class="order-wrapper">
-      <div class="form">
+      <div class="form-container">
         <p class="form-caption">
           Ordering <span class="text-title-marron">from us</span> is quick and
           easy! Fill out <span class="text-title-green">the form</span> below
           and we will contact you !
         </p>
         <form class="form-field" name="review">
-          <div class="order-form-field">
-            <input
-              class="form-input"
-              type="text"
-              id="user-name"
-              name="user-name"
-              minlength="2"
-              required
-              title="Please switch to english"
-              placeholder="Full Name"
-            />
-          </div>
-          <div class="order-form-field">
-            <input
-              class="form-input"
-              type="email"
-              id="user-email"
-              name="user-email"
-              placeholder="Email"
-              required
-            />
-          </div>
-          <div class="order-form-message">
-            <textarea
-              class="form-message"
-              name="user-message"
-              id="user-message"
-              placeholder="Comment"
-            ></textarea>
+          <div class="form-field-wrapper">
+            <div class="order-form-field">
+              <input
+                class="form-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+                minlength="2"
+                required
+                title="Please switch to english"
+                placeholder="Full Name"
+              />
+            </div>
+            <div class="order-form-field">
+              <input
+                class="form-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="order-form-message">
+              <textarea
+                class="form-message"
+                name="user-message"
+                id="user-message"
+                placeholder="Comment"
+              ></textarea>
+            </div>
           </div>
           <button class="btn btn-accent" type="submit">Send</button>
         </form>
       </div>
 
       <div class="socials">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              ../img/your-order/img-order-desk.jpg    1x,
-              ../img/your-order/img-order-desk@2x.jpg 2x
-            "
-          />
+        <div class="socials-wrapper">
+          <div class="socials-local">
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ../img/your-order/img-order-desk.jpg    1x,
+                  ../img/your-order/img-order-desk@2x.jpg 2x
+                "
+              />
 
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ../img/your-order/img-order-teb.jpg    1x,
-              ../img/your-order/img-order-tab@2x.jpg 2x
-            "
-          />
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              ../img/your-order/img-order-mob.jpg    1x,
-              ../img/your-order/img-order-mob@2x.jpg 2x
-            "
-          />
-          <img
-            class="order-img"
-            srcset="../img/your-order/img-order-mob.jpg"
-            alt="box-vegetables"
-            width="536"
-            height="352"
-          />
-        </picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ../img/your-order/img-order-teb.jpg    1x,
+                  ../img/your-order/img-order-tab@2x.jpg 2x
+                "
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ../img/your-order/img-order-mob.jpg    1x,
+                  ../img/your-order/img-order-mob@2x.jpg 2x
+                "
+              />
+              <img
+                class="order-img"
+                srcset="../img/your-order/img-order-mob.jpg"
+                alt="box-vegetables"
+                width="536"
+                height="352"
+              />
+            </picture>
 
-        <p class="socials-subtitle">Follow us on our social networks:</p>
-        <ul class="socials-list">
-          <li class="socials-item">
-            <a
-              class="socials-link"
-              href="https://www.instagram.com/goitclub/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Link to Instagram"
-              >INSTAGRAM</a
-            >
-          </li>
-          <li class="socials-item">
-            <p>/</p>
-          </li>
-          <li class="socials-item">
-            <a
-              class="socials-link"
-              href="https://www.facebook.com/goITclub/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Link to facebook"
-              >FACEBOOK</a
-            >
-          </li>
-          <li class="socials-item">
-            <p>/</p>
-          </li>
-          <li class="socials-item">
-            <a
-              class="socials-link"
-              href="https://www.youtube.com/c/GoIT"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Link to youtube"
-              >YOUTUBE</a
-            >
-          </li>
-        </ul>
+            <p class="socials-subtitle">Follow us on our social networks:</p>
+            <ul class="socials-list">
+              <li class="socials-item">
+                <a
+                  class="socials-link"
+                  href="https://www.instagram.com/goitclub/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to Instagram"
+                  >INSTAGRAM</a
+                >
+              </li>
+              <li class="socials-item">
+                <p>/</p>
+              </li>
+              <li class="socials-item">
+                <a
+                  class="socials-link"
+                  href="https://www.facebook.com/goITclub/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to facebook"
+                  >FACEBOOK</a
+                >
+              </li>
+              <li class="socials-item">
+                <p>/</p>
+              </li>
+              <li class="socials-item">
+                <a
+                  class="socials-link"
+                  href="https://www.youtube.com/c/GoIT"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to youtube"
+                  >YOUTUBE</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
