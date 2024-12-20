@@ -110,7 +110,9 @@
 }
 
 .footer-navigator:hover,
-.footer-navigator:focus {
+.footer-navigator:focus,
+.link:hover,
+.link:focus {
   background-color: #d4bfc4;
   color: #7a3145;
 }
@@ -215,10 +217,4 @@
   .footer-contacts {
     margin: 0 auto;
   }
-}
-
-.link:hover,
-.link:focus {
-  background-color: #d4bfc4;
-  color: #7a3145;
 }
