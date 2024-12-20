@@ -1,6 +1,6 @@
 /*секція*/
 .how-it-works {
-    background: linear-gradient(to bottom, #7a3145 39%, #576f35 0%);
+  background: linear-gradient(to bottom, #7a3145 39%, #576f35 0%);
 }
 @media only screen and (min-width: 375px) {
   .how-it-works {
@@ -9,13 +9,13 @@
 }
 @media only screen and (min-width: 768px) {
   .how-it-works {
-     background: linear-gradient(to bottom, #7a3145 54%, #576f35 0%);
-    }
+    background: linear-gradient(to bottom, #7a3145 54%, #576f35 0%);
+  }
 }
 @media only screen and (min-width: 1280px) {
   .how-it-works {
-      background: linear-gradient(to right, #7A3145 50%, #576f35 50%);
-    }
+    background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
+  }
 }
 .section-how {
   display: flex;
@@ -35,15 +35,14 @@
 .works-img {
   display: flex;
   padding: 40px 0 40px;
-
 }
 
 .works-img img {
   border-radius: 30px;
 }
 .works-div-img {
-    max-width: 335px;
-    max-height: 452px;
+  max-width: 335px;
+  max-height: 452px;
 }
 @media only screen and (min-width: 768px) {
   .works-div-img {
@@ -51,16 +50,17 @@
     max-height: 640px;
   }
 }
-     @media only screen and (min-width: 1280px) {
-      .works-div-img {
-          max-width: 440px;
-          max-height: 560px;
-        }
-     }
+@media only screen and (min-width: 1280px) {
+  .works-div-img {
+    max-width: 440px;
+    max-height: 560px;
+  }
+}
 
 .img-size {
   border-radius: 30px;
   object-fit: cover;
+
   max-height: 452px;
 }
 
@@ -159,7 +159,6 @@
   font-size: 14px;
   line-height: 143%;
   color: #858585;
-
 }
 
 /* адаптація - планшет */
@@ -168,7 +167,6 @@
   .works-img {
     padding: 100px 32px;
   }
-   
 
   .works-content {
     padding: 100px 132px;
@@ -195,19 +193,16 @@
   }
 }
 
-
 /* адаптація - комп'ютер */
 @media only screen and (min-width: 1280px) {
-
   .works-img {
     padding: 100px 100px 100px 0;
   }
   .works-content {
     padding: 100px 0 100px 100px;
-    }
+  }
 
   .bascket {
     margin-bottom: 104px;
   }
-
 }
