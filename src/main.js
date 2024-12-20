@@ -72,3 +72,27 @@ document.addEventListener('DOMContentLoaded', function() {
       scrollToSection('your-order');
     });
   });
+ // Функция для пересчета процента в зависимости от ширины экрана
+    function updateGradient() {
+      const screenWidth = window.innerWidth; // Ширина экрана
+      const baseWidth = 320; // Базовая ширина, при которой процент равен 39%
+      const basePercent = 39; // Исходное значение процента
+      const incrementPerPixel = 0.1; // Увеличение процента на 0.1% за каждый пиксель
+
+      // Рассчитываем новый процент: базовый процент + изменения на основе ширины
+      let newPercent = basePercent + (screenWidth - baseWidth) * incrementPerPixel;
+
+      // Ограничиваем значения процента (например, от 39% до 60%)
+      const minPercent = 39;
+      const maxPercent = 44.5;
+      newPercent = Math.max(minPercent, Math.min(newPercent, maxPercent));
+      
+      // Обновляем переменную CSS
+      document.documentElement.style.setProperty('--gradient-percent', `${newPercent}%`);
+    }
+
+    // Обновляем градиент при изменении размера окна
+    window.addEventListener('resize', updateGradient);
+
+    // Выполняем при начальной загрузке
+    updateGradient();

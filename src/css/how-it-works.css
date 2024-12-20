@@ -1,5 +1,6 @@
 /*секція*/
 .how-it-works {
+<<<<<<< HEAD
   background: linear-gradient(to bottom, #7a3145 39%, #576f35 0%);
 }
 @media only screen and (min-width: 375px) {
@@ -11,6 +12,14 @@
   .how-it-works {
     background: linear-gradient(to bottom, #7a3145 54%, #576f35 0%);
   }
+=======
+    background: linear-gradient(to bottom, #7a3145 var(--gradient-percent), #576f35 0%);
+}
+@media only screen and (min-width: 768px) {
+  .how-it-works {
+    background: linear-gradient(to bottom, #7a3145 54.3%, #576f35 0%);
+    }
+>>>>>>> 266111abf52f0c9e7a15818d649e4889ec2a2729
 }
 @media only screen and (min-width: 1280px) {
   .how-it-works {
